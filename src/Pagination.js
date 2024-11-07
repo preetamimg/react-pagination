@@ -151,13 +151,13 @@ const Pagination = ({pageNo, setPageNo, totalPages}) => {
       <ul className='pagination-container'>
         <li onClick={handlePrev}>
           <button className='pagination-item'>
-            <img width={20} height={20} src={'/img/arrow-left.png'} alt={'arrow-left'} />
+            <img width={20} height={20} src={'./arrow-left.png'} alt={'arrow-left'} />
           </button>
         </li>
         {renderPageNumber()}
         <li onClick={handleNext}>
           <button className='pagination-item'>
-            <img width={20} height={20} src={'/img/arrow-right-table.png'} alt={'arrow-right-table'} />
+            <img width={20} height={20} src={'./arrow-right-table.png'} alt={'arrow-right-table'} />
           </button>
         </li>
       </ul>
